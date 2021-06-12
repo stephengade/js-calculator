@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator - JS PROJECT</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <div class="calculator-container">
+        <div class="toggler">
+            <img src="img/dark-mode.png" id="night-image">
+            <img src="img/day-switcher.png" id="day-image">
+        </div>
+        <h2 class="calc-title">Tosin Basic Calculator</h2>
+        <div class="wrapper">
+            <form class="calculator" name="calc">
+                <div class="result-container">
+                </div>
+
+                <div class="button-container">
+                    <div class='btn-row-1 btn'>
+                        <p class="num" id="delete">&leftarrow;</p>
+                        <p class="num" id="reset">CE</p>
+                        <p class="num" id="percent">%</p>
+                        <p class="num" id="advance">Sci</p>
+                    </div>
+                    <div class='btn-row-2 btn'>
+                        <p class="num" id="seven">7</p>
+                        <p class="num" id="eight">8</p>
+                        <p class="num" id="nine">9</p>
+                        <p class="num" id="raisebysquare">X&sup2;</p>
+                    </div>
+
+                    <div class='btn-row-3 btn'>
+                        <p class="num" id="four">4</p>
+                        <p class="num" id="five">5</p>
+                        <p class="num" id="six">6</p>
+                        <p class="num" id="minus">-</p>
+                    </div>
+
+                    <div class='btn-row-4 btn'>
+                        <p class="num" id="one">1</p>
+                        <p class="num" id="two">2</p>
+                        <p class="num" id="three">3</p>
+                        <p class="num" id="plus">+</p>
+                    </div>
+
+                    <div class='btn-row-5 btn'>
+                        <p class="num" id="multiply">*</p>
+                        <p class="num" id="zero">0</p>
+                        <p class="num" id="point">.</p>
+                        <p class="num" id="divide">/</p>
+                    </div>
+
+                    <div class='btn-row-6 btn'>
+                        <p class="num" id="open-bracket">(</p>
+                        <p class="num" id="close-bracket">)</p>
+                        <p class="num" id="square-root">&#8730;</p>
+                        <p class="num" id="equal">=</p>
+                    </div>
+
+                </div>
+
+                <div class="advance-calc">
+                    <div class='btn-row-7 btn'>
+                        <p class="num" id="permutation">X!</p>
+                        <p class="num" id="pi">&pi;</p>
+                    </div>
+
+                    <div class='btn-row-8 btn'>
+                        <p class="num" id="cos">cos</p>
+
+                        <p class="num" id="raised-by-3">X&sup3;</p>
+
+                    </div>
+
+                    <div class="btn-row-9">
+                        <p class="num" id="sin">sin</p>
+                        <p class="num" id="X-raise-y">000</p>
+                    </div>
+
+                    <div class="btn-row-10">
+                        <p class="num" id="tan">tan</p>
+                        <p class="num" id="log">log</p>
+                    </div>
+
+                </div>
+
+
+            </form>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
